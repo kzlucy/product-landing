@@ -1,5 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #eee;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
 }
 
 header {
@@ -75,4 +84,96 @@ header #nav-bar ul li a{
 }
 .feature{
     display: flex;
+}
+
+i{
+
+    color: darkorange;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-header{
+    margin: 10px 0;
+}
+.feature-header h2{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.feature-header p{
+    margin: 0;
+    margin-top: 5px;
+}
+
+#video-container{
+    margin: 100px 0;
+    text-align: center;
+}
+
+#pricing{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid #000;
+    margin: 0 20px;
+    text-align: center;
+    width: calc(100%/3);
+    min-width: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.card-header{
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.card-body ul{
+    text-align: center;
+    padding-right: 40px;
+}
+
+.card-body li{
+    list-style: none;
+}
+
+.card-body button{
+    margin-bottom: 10px;
+}
+
+.card-body h3{
+    padding-right: 5px;
+}
+
+footer{
+    background-color: #ddd;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+footer ul{
+    display: flex;
+    margin-right: 15px;
+}
+
+footer ul li{
+    list-style: none;
+    margin: 0 5px;
+
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+footer p{
+    margin-right:  20px;
 }
