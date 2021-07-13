@@ -66,3 +66,13 @@ header #nav-bar ul li a{
     width: 300px;
     max-width: 300px;
 }
+#features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature{
+    display: flex;
+}
